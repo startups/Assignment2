@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EShopApp</string>
+    <string name="loginStr">Login</string>
+    <string name="usernameStr">Username</string>
+    <string name="createAccountStr"><font color="#00ff00">text</font></string>
+    <string name="emailStr">EmailID</string>
+        <string name="passwordStr">Password</string>
+        <string name="registerStr">Register</string>
+       <string name="loginNowStr">Login Now</string>
+</resources>

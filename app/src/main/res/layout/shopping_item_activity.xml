@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <ImageView
+
+        android:layout_rowSpan="2"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+
+        android:scaleType="fitXY"
+        android:id="@+id/itemImageFlag"
+        android:layout_row="0"
+        android:layout_column="0" />
+
+    <TextView
+        android:id="@+id/textViewCategory"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="10dp"
+        android:textColor="#1E90FF"
+        android:textSize="30dp" />
+
+
+    <TextView
+        android:id="@+id/textViewItem"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="10dp"
+        android:textColor="#4B0082"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/itemPriceLabel"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_row="0"
+        android:layout_column="2"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="10dp"
+        android:textColor="#4B0082"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/addItemButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_row="1"
+        android:layout_column="2"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="10dp"
+        android:background="@color/colorAccent"
+        android:text="Add To Cart"
+        android:textSize="20dp"
+        android:textColor="@android:color/white" />
+</GridLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/margin_vertical_value"
+    android:paddingLeft="@dimen/margin_horizontal_value"
+    android:paddingRight="@dimen/margin_horizontal_value"
+    android:paddingTop="@dimen/margin_vertical_value"
+    tools:context=".ShoppingActivity">
+
+    <TextView
+        android:id="@+id/headerLabel"
+        android:layout_width="400dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center_horizontal"
+        android:text="WELCOME TO ONLINE ELECTRONIC GADGETS SHOPPING"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/checkoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/headerLabel"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorAccent"
+        android:text="CHECKOUT CART"
+        android:textColor="@android:color/white" />
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@id/checkoutButton"
+
+        android:layout_marginTop="16dp"
+        android:background="@color/colorAccent"
+        android:text="LOGOUT"
+        android:textColor="@android:color/white" />
+    <ListView
+        android:id="@+id/list"
+        android:layout_marginTop="24dp"
+        android:layout_below="@id/logoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+</RelativeLayout>

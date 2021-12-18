@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="margin_value">16dp</dimen>
+      <dimen name="margin_horizontal_value">16dp</dimen>
+    <dimen name="margin_vertical_value">16dp</dimen>
+</resources>
